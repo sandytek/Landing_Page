@@ -118,6 +118,7 @@ border: 1px solid #3882f6;
     display: flex;
     gap: 50px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info-2 {
@@ -142,18 +143,18 @@ border: 1px solid #3882f6;
     font-weight: 800;
     text-align: end;
 }
-
+.content4 {
+    display: flex;
+}
 .modal {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
-    width: 1000px;
-    height: 150px;
+    width: 800px;
     border-radius: 10px;
     background-color: #3882f6;
     margin: 100px auto;
-    padding: 40px 120px;
+    padding: 50px 120px;
 }
 
 .modal-title {
